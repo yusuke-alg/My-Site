@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blox Fruit - <span id="fruit-name"></span></title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <header>
+        <h1 id="fruit-name"></h1>
+        <a href="index.html" class="btn">Retour à l'accueil</a>
+    </header>
+
+    <main data-aos="fade-up">
+        <section id="fruit-info">
+            <h2>Description</h2>
+            <p id="description">Chargement...</p>
+            <h3>Caractéristiques</h3>
+            <ul id="characteristics">
+                <li>Capacité : <span id="capacity"></span></li>
+                <li>Force : <span id="strength"></span></li>
+                <li>Utilisation : <span id="usage"></span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blox Fruit Wiki</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
